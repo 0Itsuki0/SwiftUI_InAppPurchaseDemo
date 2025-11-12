@@ -1,0 +1,182 @@
+{
+  "appPolicies" : {
+    "eula" : "Some Agreement.",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : "https://developer.apple.com/storekit/"
+      }
+    ]
+  },
+  "identifier" : "675C8446",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "8C1C0D5F",
+      "localizations" : [
+        {
+          "description" : "Get 100 Gatch Stone",
+          "displayName" : "100 Gatch Stone",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "consumable.gachaStone.100",
+      "referenceName" : "100 Gatch Stone",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "29.99",
+      "familyShareable" : false,
+      "internalID" : "04F77C99",
+      "localizations" : [
+        {
+          "description" : "No Ads for the rest of your life!",
+          "displayName" : "Remove Ads",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "nonconsumable.removeAds",
+      "referenceName" : "Remove Ads Forever",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "6D94C35D",
+      "localizations" : [
+        {
+          "description" : "Get 500 Gatch Stone",
+          "displayName" : "500 Gatch Stone",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "consumable.gachaStone.500",
+      "referenceName" : "500 Gatch Stone",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "9.99",
+      "familyShareable" : false,
+      "internalID" : "6959FA07",
+      "localizations" : [
+        {
+          "description" : "Get 1000 Gatch Stone",
+          "displayName" : "1000 Gatch Stone",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "consumable.gachaStone.1000",
+      "referenceName" : "1000 Gatch Stone",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "99.99",
+      "familyShareable" : false,
+      "internalID" : "6AF164D9",
+      "localizations" : [
+        {
+          "description" : "Get 10000 Gatch Stone",
+          "displayName" : "10000 Gatch Stone",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "consumable.gachaStone.10000",
+      "referenceName" : "10000 Gatch Stone",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "C4E9A6CF",
+      "localizations" : [
+        {
+          "description" : "Unlock additional features.",
+          "displayName" : "Additional Features",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Features+",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "563AD974",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "A Little Extra.",
+              "displayName" : "Plus Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "subscription.autoRenew.features.plus",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Plus",
+          "subscriptionGroupID" : "C4E9A6CF",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "59.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "60ACD54F",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "A Lot Extra",
+              "displayName" : "Premium Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "subscription.autoRenew.features.premium",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium",
+          "subscriptionGroupID" : "C4E9A6CF",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

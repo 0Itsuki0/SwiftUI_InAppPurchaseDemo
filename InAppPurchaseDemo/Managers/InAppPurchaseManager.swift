@@ -56,6 +56,9 @@ class InAppPurchaseManager {
     
     // consumable purchase
     private static let gachaStoneKey = "gachaStone"
+    // NOTE:
+    // For simplification, UserDefaults is used here.
+    // To share between multiple devices, please consider using SwiftData + iCloud instead.
     private(set) var gachaStone: Int = 0 {
         didSet {
             UserDefaults.standard.setValue(self.gachaStone, forKey: InAppPurchaseManager.gachaStoneKey)

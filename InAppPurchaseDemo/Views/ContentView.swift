@@ -14,7 +14,8 @@ struct ContentView: View {
     @State private var purchasingProductId: Product.ID?
     @State private var showAllTransactions: Bool = false
     @State private var showSubscriptionSheet: Bool = false
-    
+    @State private var showManageSubscriptionSheet = false
+
     var body: some View {
         NavigationStack {
             List {
@@ -60,6 +61,13 @@ struct ContentView: View {
                         Text("All Transactions")
                     })
                     
+                    Button(action: {
+                        showManageSubscriptionSheet = true
+                    }, label: {
+                        Text("Manage Subscription")
+                    })
+                    .manageSubscriptionsSheet(isPresented: $showManageSubscriptionSheet, subscriptionGroupID: ProductsConfiguration.featuresSubscriptionGroupId)
+                    
                 }
                 
                 Section("Subscriptions") {
@@ -72,7 +80,6 @@ struct ContentView: View {
                         SubscriptionStoreView(subscriptions: inAppPurchaseManager.featuresSubscriptionProducts)
                         .storeButton(.visible, for: .restorePurchases)
                     })
-
                 }
                 
 
